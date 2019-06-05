@@ -1,7 +1,4 @@
 eureka:
- instance:
-    leaseRenewalIntervalInSeconds: 1
-    leaseExpirationDurationInSeconds: 2
  client:
    registerWithEureka: false
    fetch-registry: false
