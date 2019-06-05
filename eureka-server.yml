@@ -1,7 +1,12 @@
 eureka:
+ instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
  client:
    registerWithEureka: false
    fetch-registry: false
+ server:
+   enableSelfPreservation: false
    
 server:
  port: 8282
