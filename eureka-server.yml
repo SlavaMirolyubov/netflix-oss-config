@@ -1,0 +1,6 @@
+eureka:
+ client:
+   fetch-registry: false
+   
+server:
+ port: 8282
