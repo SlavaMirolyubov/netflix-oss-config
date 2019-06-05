@@ -1,6 +1,6 @@
 eureka:
  client:
-   registerWithEureka: false
+   registerWithEureka: true
    fetch-registry: false
    
 server:
