@@ -12,5 +12,8 @@ hystrix:
             execution:
                 isolation:
                     thread:
-                        timeoutInMilliseconds: 10000
+                        timeoutInMilliseconds: 60000
 
+ribbon:
+  ConnectTimeout: 3000
+  ReadTimeout: 60000
