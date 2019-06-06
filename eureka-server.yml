@@ -1,5 +1,5 @@
 eureka:
- renewalPercentThreshold=0.85
+ #renewalPercentThreshold=0.85
  client:
    registerWithEureka: false
    fetch-registry: false
