@@ -5,3 +5,11 @@ zuul:
   routes:
     workspaces-api: /workspaces-service/**
     employees-api: /employees-service/**
+
+hystrix:
+    command:
+        default:
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 1000
