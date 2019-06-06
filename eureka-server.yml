@@ -5,10 +5,10 @@ eureka:
    fetch-registry: false
  server:
    enableSelfPreservation: true
-   #renewalPercentThreshold: 0.49
+   renewalPercentThreshold: 0.85
    responseCacheUpdateIntervalMs: 1000
  instance:
-   leaseRenewalIntervalInSeconds=1
+   leaseRenewalIntervalInSeconds: 1
    
 server:
  port: 8282
